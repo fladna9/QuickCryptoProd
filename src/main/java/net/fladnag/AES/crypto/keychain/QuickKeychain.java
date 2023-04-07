@@ -1,12 +1,8 @@
 package net.fladnag.AES.crypto.keychain;
-
 import net.fladnag.AES.utils.CryptoUtils;
 import org.bouncycastle.util.encoders.Base64;
-
-import javax.crypto.SecretKey;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.security.SecureRandom;
 
 public class QuickKeychain {
     private int length = 32;

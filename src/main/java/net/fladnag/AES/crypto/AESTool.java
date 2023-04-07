@@ -1,15 +1,9 @@
 package net.fladnag.AES.crypto;
-
-import net.fladnag.AES.utils.CryptoUtils;
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
-
 import javax.crypto.*;
 import javax.crypto.spec.GCMParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
-import java.nio.charset.StandardCharsets;
 import java.security.*;
 import java.util.Arrays;
-
 import static javax.crypto.Cipher.*;
 
 public class AESTool {
